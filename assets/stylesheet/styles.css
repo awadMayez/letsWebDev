@@ -90,15 +90,21 @@ b, strong {
 #btns {
   color: #ca9f23;
 }
+
 #btns:hover {
     color: black;
     text-decoration: blink;
 }
 .msngrs{
-
-
 }
-
+/* #ourHref{
+  color: #212529;
+}
+#ourHref:hover{
+  text-decoration: none;
+  color: #212529;
+  opacity: .4;
+} */
 .msngrs:hover{
 color: transparent;
 opacity: .4;
