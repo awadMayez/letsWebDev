@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.section1 {
+  height: 100%;
+   background: radial-gradient(ellipse at top left, #000000 0%, #113b4a 100%); /*  #0e9f3f #126d31 #0d7a33 */
+  overflow: hidden;
+
+}
+
+.section2 {
+  height: 100%;
+   background: radial-gradient(ellipse at top left, #000000 0%,  #79699f 100%);
+  overflow: hidden;
+}
+
+.section3 {
+  height: 100%;
+   background: radial-gradient(ellipse at top right, #000000 0%, #ffc063 100%);
+  overflow: hidden;
+}
+
+section div {
+  font-family: 'Open Sans';
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+span {
+  font-size: 2em;
+  font-style: normal;
+  color: #fff;
+}
+
+.button {
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  text-shadow: 0px -2px #D1B358;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.navbar {
+
+    background-color: transparent;
+}
+
+
+b, strong {
+    font-weight: bolder;
+  font-family: 'Give You Glory', cursive;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: large;
+}
+
+.navbar-toggler-icon {
+      font-size: 1rem;
+  background-size: 50% 50%;
+  width: 0.5em;
+ height: 0.5em;
+}
+
+#links {
+    font-size: x-small;
+}
+#btns {
+  color: #ca9f23;
+}
+#btns:hover {
+    color: black;
+    text-decoration: blink;
+}
+.msngrs{
+
+
+}
+
+.msngrs:hover{
+color: transparent;
+opacity: .4;
+}
