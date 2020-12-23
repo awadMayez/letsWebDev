@@ -1,0 +1,217 @@
+.typewriter {
+    font-family: Open Sans, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-weight: 700;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+    font-size: 2em;
+    font-style: normal;
+    color: #fff;
+        font-size: larger;
+}
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}
+@media screen and (max-width:800px) {
+  .typewriter {
+      font-family: Open Sans, monospace;
+    display: inline-block;
+        transform: translateY(-20%);
+  }
+
+  .typewriter-text {
+      display: inline;
+      overflow: hidden;
+      letter-spacing: 2px;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+      white-space: normal;
+      font-weight: 700;
+      font-style: normal;
+      color: #fff;
+      font-size: 1.5em;
+  }
+  @keyframes typing {
+      from {
+          width: 0%
+      }
+      to {
+          width: 100%
+      }
+  }
+
+  @keyframes blink {
+      from, to {
+          border-color: transparent
+      }
+      50% {
+          border-color: white;
+      }
+  }
+
+  span {
+    font-size: 1.5em;
+  }
+
+  p{
+    font-size: x-large;
+  }
+  }
+
+
+@media screen and (max-width:700px) {
+  .typewriter {
+      font-family: Open Sans, monospace;
+    display: inline-block;
+        transform: translateY(-20%);
+  }
+
+  .typewriter-text {
+      display: inline;
+      overflow: hidden;
+      letter-spacing: 2px;
+    animation: typing 5s steps(30, end), blink .75s step-end infinite;
+      white-space: normal;
+      font-weight: 700;
+      font-style: normal;
+      color: #fff;
+      font-size: 1.2em;
+  }
+  @keyframes typing {
+      from {
+          width: 0%
+      }
+      to {
+          width: 100%
+      }
+  }
+
+  @keyframes blink {
+      from, to {
+          border-color: transparent
+      }
+      50% {
+          border-color: white;
+      }
+  }
+
+  span {
+    font-size: 1.2em;
+  }
+
+  p{
+    font-size: inherit;
+  }
+  }
+
+
+  @media screen and (max-width:500px) {
+    .typewriter {
+        font-family: Open Sans, monospace;
+      display: inline-block;
+          transform: translateY(-20%);
+    }
+
+    .typewriter-text {
+          display: inline;
+        overflow: hidden;
+        letter-spacing: 2px;
+      animation: typing 5s steps(30, end), blink .75s step-end infinite;
+        white-space: normal;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 0.7em;
+        color: #fff;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0%
+        }
+        to {
+            width: 100%
+        }
+    }
+
+    @keyframes blink {
+        from, to {
+            border-color: transparent
+        }
+        50% {
+            border-color: white;
+        }
+    }
+
+    span {
+      font-size: 0.7em;
+    }
+    p{
+      font-size: large;
+    }
+    }
+    @media screen and (max-width:325px) {
+      .typewriter {
+          font-family: Open Sans, monospace;
+        display: inline-block;
+            transform: translateY(-20%);
+      }
+
+      .typewriter-text {
+            display: inline;
+          overflow: hidden;
+          letter-spacing: 2px;
+        animation: typing 5s steps(30, end), blink .75s step-end infinite;
+          white-space: normal;
+          font-weight: 700;
+          font-style: normal;
+          font-size: 0.7em;
+          color: #fff;
+      }
+
+      @keyframes typing {
+          from {
+              width: 0%
+          }
+          to {
+              width: 100%
+          }
+      }
+
+      @keyframes blink {
+          from, to {
+              border-color: transparent
+          }
+          50% {
+              border-color: white;
+          }
+      }
+
+      span {
+        font-size: 0.7em;
+      }
+      p{
+        font-size: inherit;
+      }
+      }
+}
