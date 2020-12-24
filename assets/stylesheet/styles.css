@@ -64,7 +64,6 @@ span {
 }
 
 .navbar {
-
     background-color: transparent;
 }
 
@@ -83,7 +82,10 @@ b, strong {
   width: 0.5em;
  height: 0.5em;
 }
-
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+    outline: none;
+}
 #links {
     font-size: x-small;
 }
@@ -97,14 +99,14 @@ b, strong {
 }
 .msngrs{
 }
-/* #ourHref{
+#ourHref{
   color: #212529;
 }
 #ourHref:hover{
   text-decoration: none;
   color: #212529;
   opacity: .4;
-} */
+}
 .msngrs:hover{
 color: transparent;
 opacity: .4;
